@@ -65,8 +65,8 @@ export default function contact() {
                   </div>
                   <div className="ud-info-meta">
                     <h5>How Can We Help?</h5>
-                    <p>munish.engg2187@gmail.com</p>
-                    <p></p>
+                    <p> munish.engg2187@gmail.com </p>
+                   
                   </div>
                 </div>
               </div>

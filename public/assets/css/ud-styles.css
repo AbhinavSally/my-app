@@ -1,21 +1,10 @@
-/* =======
-
-	Template Name: Play Bootstrap
-	Author: UIdeck
-	Author URI: https://uideck.com/
-	Support: https://github.com/uideck/
-	Version: 1.0
-
-======== */
-/*===========================
-  COMMON css 
-===========================*/
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap");
 :root {
   --font: "Inter", sans-serif;
   --body-color: #637381;
   --heading-color: #212b36;
-  --primary-color: #3056d3;
+  --primary-color:#ff9c57;
   --white: #ffffff;
 }
 
@@ -236,20 +225,23 @@ p {
   transition: all 0.3s ease-out 0s;
 }
 
-.navbar-brand {
-  padding: 0;
+.navbar-brand  p{
+  font-family: 'Alegreya', serif;
+  color:#f2f2f2;
+  font-size:46px;
+  position:relative;
+  left:-4px;
+  top:9px;
 }
 
+.ud-menu-scroll{
+  font-weight: bolder;
+}
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
   .navbar-brand {
     padding: 5px 0px;
   }
 }
-
-.navbar-brand img {
-  max-width: 160px;
-}
-
 .navbar-toggler {
   padding: 0;
 }
@@ -773,6 +765,7 @@ p {
   font-size: 16px;
   line-height: 24px;
   margin-bottom: 40px;
+  
 }
 
 .ud-single-feature .ud-feature-link {
@@ -820,17 +813,20 @@ p {
 @media (max-width: 767px) {
   .ud-about-content-wrapper {
     padding: 50px 30px;
+    text-align: justify;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .ud-about-content-wrapper {
     padding: 50px;
+    
+    
   }
 }
-
+/*  ------------------- */
 .ud-about-content {
-  max-width: 500px;
+  max-width: 1116px;
 }
 
 .ud-about-content .tag {
@@ -841,6 +837,7 @@ p {
   padding: 5px 20px;
   display: inline-block;
   margin-bottom: 20px;
+
 }
 
 .ud-about-content h2 {
@@ -899,8 +896,8 @@ p {
 }
 
 .ud-single-pricing.active {
-  background: -webkit-gradient(linear, left top, left bottom, from(#3056d3), to(#179bee));
-  background: linear-gradient(180deg, #3056d3 0%, #179bee 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#dc6b1b), to(#179bee));
+  background: linear-gradient(#ff9c57, #ffa862,#ffb36d);
   border: none;
   padding: 55px 30px;
 }
@@ -930,7 +927,7 @@ p {
 }
 
 .ud-single-pricing.last-item::after {
-  background: #13c296;
+  background: #ff9c57;
   top: -2px;
   right: -2px;
   border-radius: 0px 8px 0px 55px;
@@ -2611,10 +2608,71 @@ p {
     padding: 10px 20px;
   }
 }
+  
+
 
 
 .hello {
   font-weight:600;
-  color:#3056d3;
+  color:#dc6b1b;
   }
+
+
+
+  .carousel-item{
+    display:flex;
+    justify-content:center; /* horizontally center */
+    align-items:center;    /* vertically center */
+    height:300px;
+    width:300px;
+    background:rgb(255, 255, 255);
+  }
+ 
+ .carousel-item img{
+   max-width:100%;
+   max-height:100%;
+   position:relative;
+   left:368px;
+   top:-4px;
+   left:348px;
+ }
+
+ @media (max-width:800px){
+  .carousel-item{
+    display:flex;
+    justify-content:center; /* horizontally center */
+    align-items:center;    /* vertically center */
+    height:300px;
+    width:300px;
+    background:rgb(255, 255, 255);
+  }
+ 
+ .carousel-item img{
+   max-width:100%;
+   max-height:100%;
+   position:relative;
+   left:0px;
+   top:0px;
+   padding: 4px;
+ }
+ 
+ .carousel-control-prev-icon, .carousel-control-next-icon {
+  top: -40px;
+ }
+ }
+
+ .carousel-control-prev-icon, .carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline:#FF9C57;
+  background-color:#DC6B1B;
+  background-size: 100%, 100%;
+  border-radius: 10%;
+  border: 1px solid#FF9C57;
+  position: relative;
   
+}
+
+.ud-menu-scroll{
+left: 30px;
+}

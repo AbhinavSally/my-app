@@ -16,10 +16,11 @@ import Contact from './contact'
           <div className="col-lg-12">
             <nav className="navbar navbar-expand-lg ">
               <a className="navbar-brand" href="/">
-                <img src="assets/images/logo/bbwflogo.png" alt="Logo" />
+              <p> BBWF </p>
               </a>
               <button className="navbar-toggler"  type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"  aria-label="Toggle navigation">
               <span class="toggler-icon"> </span>
+                <span class="toggler-icon"> </span>
                 <span class="toggler-icon"> </span>
                 
                
@@ -48,8 +49,8 @@ import Contact from './contact'
                 </Link>
                 </li> */}
               
-{/*  
-                <li className="nav-item">
+ 
+                {/* <li className="nav-item">
                 <Link className="ud-menu-scroll"  to="/login"> Login 
                 </Link>
                 </li> */}
@@ -84,10 +85,7 @@ import Contact from './contact'
               "None of us, including me, ever do great things.
                But we can all do small things, with great love, and together we can do something wonderful."
               </p>
-              <p className="ud-hero-desc">
-              "None of us, including me, ever do great things.
-               But we can all do small things, with great love, and together we can do something wonderful."
-              </p>
+             
              
             </div>
             <div
@@ -96,9 +94,9 @@ import Contact from './contact'
             >
               {/* <img src="assets/images/hero/brand.svg" alt="brand" /> */}
             </div>
-            {/* <div className="ud-hero-image wow fadeInUp" data-wow-delay=".25s">
-              <img src="assets/images/hero/hero-image.svg" alt="hero-image" />
-              <img
+            <div className="ud-hero-image wow fadeInUp" data-wow-delay=".25s">
+              <img src="assets/images/hero-image2.jpeg" alt="hero-image" style={{width:'705rem', height:'290px'}} />
+              {/* <img
                 src="assets/images/hero/dotted-shape.svg"
                 alt="shape"
                 className="shape shape-1"
@@ -107,8 +105,8 @@ import Contact from './contact'
                 src="assets/images/hero/dotted-shape.svg"
                 alt="shape"
                 className="shape shape-2"
-              />
-            </div> */}
+              /> */}
+            </div>
           </div>
         </div>
       </div>
@@ -206,13 +204,73 @@ import Contact from './contact'
               {/* <a href="javascript:void(0)" className="ud-main-btn">Learn More</a> */}
             </div>
           </div>
-          <div className="ud-about-image">
+          {/* <div className="ud-about-image">
             <img src="assets/images/about/about-image.svg" alt="about-image" />
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
-  
+            <br/>
+            <br/>
+            
+    {/* pdf slider */}
+    <div className="ud-section-title mx-auto text-center">
+    <h2>Important Documents</h2>
+     </div>         
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <a href="assets/pdf/pan1.pdf">
+      <img src="assets/images/pan.png" class="d-block w-100" alt="..."/></a>
+    </div>
+
+    <div class="carousel-item">
+    <a href="assets/pdf/aodi.pdf">
+      <img src="assets/images/aodi.png" class="d-block w-100" alt="..."/></a>
+    </div>
+    
+    <div class="carousel-item">
+    <a href="assets/pdf/coi.pdf ">
+      <img src="assets/images/coi.png" class="d-block w-100" alt="..."/></a>
+    </div>
+
+    <div class="carousel-item">
+    <a href=" assets/pdf/tanletter.pdf">
+      <img src="assets/images/tanletter.png" class="d-block w-100" alt="..."/></a>
+    </div>
+
+    <div class="carousel-item">
+    <a href="assets/pdf/approveletter.pdf ">
+      <img src="assets/images/approveletter.png" class="d-block w-100" alt="..."/></a>
+    </div>
+    
+    <div class="carousel-item">
+    <a href=" assets/pdf/240008.pdf">
+      <img src="assets/images/24000.png" class="d-block w-100" alt="..."/></a>
+    </div>
+
+    <div class="carousel-item">
+    <a href=" assets/pdf/aoa.pdf">
+      <img src="assets/images/aoa.png" class="d-block w-100" alt="..."/></a>
+    </div>
+
+    <div class="carousel-item">
+    <a href="assets/pdf/moa.pdf ">
+      <img src="assets/images/moa.png" class="d-block w-100" alt="..."/></a>
+    </div>
+
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+    {/* pdf slider */} 
 
     <section id="pricing" className="ud-pricing">
       <div className="container">
@@ -228,14 +286,14 @@ import Contact from './contact'
         <div className="row g-0 align-items-center justify-content-center">
           <div className="col-lg-4 col-md-6 col-sm-10">
             <div
-              className="ud-single-pricing first-item wow fadeInUp"
+              className="ud-single-pricing first.png-item wow fadeInUp"
               data-wow-delay=".15s"
             >
               <div className="ud-pricing-header">
                 <h3>YOU PAY</h3>
                 <h4>&#8377; 321 </h4>
                 <ul> 
-                  <li>MINIMUM DONATION</li><br/>
+                <li>MINIMUM DONATION</li><br/>
                   <li> TO JOIN OUR ORGANISATION</li>
                   
                  </ul>
@@ -256,7 +314,7 @@ import Contact from './contact'
           <div className="col-lg-4 col-md-6 col-sm-10">
             <div
               className="ud-single-pricing active wow fadeInUp"
-              data-wow-delay=".1s"
+              data-wow-delay=".1s"s
             >
               <span className="ud-popular-tag">WHAT WE HELP</span>
               <div className="ud-pricing-header">
@@ -493,8 +551,8 @@ import Contact from './contact'
           <div className="row">
             <div className="col-xl-6 col-lg-4 col-md-6">
               <div className="ud-widget">
-                <a href="/" className="ud-footer-logo">
-                  <img src="assets/images/logo/bbwflogo.png" alt="logo" />
+                <a href="/" className="navbar-brand">
+                <p>BBWF</p>
                 </a>
                 <p className="ud-widget-desc">
                   We create digital experiences for brands and companies by
