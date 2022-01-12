@@ -290,7 +290,7 @@ import Contact from './contact'
               data-wow-delay=".15s"
             >
               <div className="ud-pricing-header">
-                <h3>YOU PAY</h3>
+                <h3>YOU DONATE</h3>
                 <h4>&#8377; 321 </h4>
                 <ul> 
                 <li>MINIMUM DONATION</li><br/>
@@ -324,11 +324,11 @@ import Contact from './contact'
               </div>
               <div className="ud-pricing-body">
                 <ul> 
-                  <li>&#8377; 100 per 100 users</li>
-                  <li>&#8377; 200 per 200 users</li>
-                  <li>&#8377; 300 per 300 users</li>
-                  <li>&#8377; 400 per 400 users</li>
-                  <li> upto 1000 users</li>
+                  <li>&#8377; 100 Level 1</li>
+                  <li>&#8377; 200 Level 2</li>
+                  <li>&#8377; 300 Level 3</li>
+                  <li>&#8377; 400 Level 4</li>
+                  <li> upto Level 12</li>
                 </ul>
               </div>
               <div className="ud-pricing-footer">
@@ -555,8 +555,7 @@ import Contact from './contact'
                 <p>BBWF</p>
                 </a>
                 <p className="ud-widget-desc">
-                  We create digital experiences for brands and companies by
-                  using technology.
+                Bhaskar Bharti welfare foundation vision is to create a just and equitable society by transforming individuals from socially and economically excluded communities into agents of change. 
                 </p>
                 <ul className="ud-widget-socials">
                   <li>
@@ -572,11 +571,6 @@ import Contact from './contact'
                   <li>
                     <a href=" ">
                       <i className="lni lni-instagram-filled"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href=" ">
-                      <i className="lni lni-linkedin-original"></i>
                     </a>
                   </li>
                 </ul>
@@ -602,7 +596,7 @@ import Contact from './contact'
                 </ul>
               </div>
             </div>
-            <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+            {/* <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6">
               <div className="ud-widget">
                 <h5 className="ud-widget-title">Features</h5>
                 <ul className="ud-widget-links">
@@ -620,7 +614,7 @@ import Contact from './contact'
                   </li>
                 </ul>
               </div>
-            </div>
+            </div> */}
 
           
           </div>
