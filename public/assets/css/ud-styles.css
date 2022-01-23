@@ -228,7 +228,8 @@ p {
 .navbar-brand  p{
   font-family: 'Alegreya', serif;
   color:#f2f2f2;
-  font-size:46px;
+  font-size:32px;
+  font-weight: bolder;
   position:relative;
   left:-4px;
   top:9px;
@@ -500,12 +501,14 @@ p {
 /* ===== Hero CSS ===== */
 .ud-hero {
   background: var(--primary-color);
-  padding-top: 180px;
+  padding-top: 120px;
+  padding-bottom:1px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .ud-hero {
     padding-top: 160px;
+    
   }
 }
 
@@ -524,11 +527,12 @@ p {
 .ud-hero-content .ud-hero-title {
   color: var(--white);
   font-weight: 700;
-  font-size: 45px;
+  font-size: 55px;
   line-height: 60px;
   text-align: center;
   margin-bottom: 30px;
 }
+
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .ud-hero-content .ud-hero-title {
@@ -555,11 +559,14 @@ p {
   margin: auto;
   margin-bottom: 30px;
 }
-
+.ud-hero-desc {
+  color:white;
+  }
 @media (max-width: 767px) {
   .ud-hero-content .ud-hero-desc {
-    font-size: 16px;
+    font-size: 26px;
     line-height: 30px;
+    color:white;
   }
 }
 
@@ -813,7 +820,7 @@ p {
 @media (max-width: 767px) {
   .ud-about-content-wrapper {
     padding: 50px 30px;
-    text-align: justify;
+    text-align:left;
   }
 }
 
@@ -874,13 +881,13 @@ p {
 
 /* ===== Pricing CSS ===== */
 .ud-pricing {
-  padding-top: 120px;
+  padding-top: 50px;
   padding-bottom: 90px;
 }
 
 @media (max-width: 767px) {
   .ud-pricing {
-    padding-top: 80px;
+    padding-top: 5px;
     padding-bottom: 40px;
   }
 }
@@ -2612,11 +2619,18 @@ p {
 
 
 
-.hello {
+  .hello {
   font-weight:600;
   color:#dc6b1b;
   }
 
+  .donation {
+    font-weight:700;
+    font-size:42px;
+    }
+  .ud-pricing{
+    margin:0px;
+  }
 
 
   .carousel-item{
@@ -2637,11 +2651,11 @@ p {
    left:348px;
  }
 
- @media (max-width:800px){
+ @media (max-width:850px){
   .carousel-item{
     display:flex;
-    justify-content:center; /* horizontally center */
-    align-items:center;    /* vertically center */
+    justify-content:center; 
+    align-items:center;   
     height:300px;
     width:300px;
     background:rgb(255, 255, 255);
@@ -2659,6 +2673,7 @@ p {
  .carousel-control-prev-icon, .carousel-control-next-icon {
   top: -40px;
  }
+
  }
 
  .carousel-control-prev-icon, .carousel-control-next-icon {
@@ -2675,4 +2690,14 @@ p {
 
 .ud-menu-scroll{
 left: 30px;
+}
+
+.hindifont{
+  font-size: 28px;
+}
+
+@media (max-width:850px){
+  .support-child{
+    height:42vh;
+  }
 }

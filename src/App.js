@@ -35,7 +35,7 @@ import Contact from './contact'
                     <a className="ud-menu-scroll" href="#about">About</a>
                   </li>
                   <li className="nav-item">
-                    <a className="ud-menu-scroll" href="#pricing">Pricing</a>
+                    <a className="ud-menu-scroll" href="#pricing">Donation</a>
                   </li>
                   {/* <li className="nav-item">
                     <a className="ud-menu-scroll" href="#team">Team</a>
@@ -74,18 +74,13 @@ import Contact from './contact'
     </header>
     
     <section className="ud-hero" id="home">
-      <div className="container">
+      <div className="container" >
         <div className="row">
-          <div className="col-lg-12">
-            <div className="ud-hero-content wow fadeInUp" data-wow-delay=".2s">
-              <h1 className="ud-hero-title">
+          <div className="col-lg-12" >
+            <div className="ud-hero-content wow fadeInUp" data-wow-delay=".2s" >
+              <h1 className="ud-hero-title" >
                 Bhaskar Bharti Welfare Foundation
               </h1>
-              <p className="ud-hero-desc">
-              "None of us, including me, ever do great things.
-               But we can all do small things, with great love, and together we can do something wonderful."
-              </p>
-             
              
             </div>
             <div
@@ -95,7 +90,19 @@ import Contact from './contact'
               {/* <img src="assets/images/hero/brand.svg" alt="brand" /> */}
             </div>
             <div className="ud-hero-image wow fadeInUp" data-wow-delay=".25s">
-              <img src="assets/images/hero-image2.jpeg" alt="hero-image" style={{width:'705rem', height:'290px'}} />
+              <img src="assets/images/logoram.png" alt="hero-image" style={{width:'290px', height:'290px'}} />
+              <p className="ud-hero-desc">
+              <br/>
+              &#8226; सर्वशक्तिमते प्रमात्मने श्री रामायण नमः <br/>
+              &#8226; श्री स्वामी सत्यानंद जी महाराज <br/>
+              &#8226; राम राम कहिए-सदा सुखी रहिए<br/>
+              &#8226; हे प्रभु! सभी पर अपनी कृपा दृष्टि बनाए रखना<br/>
+            <span className='hindifont'> कर भला - हो भला  </span><br/>
+              &#8226; हो सकता है - आप को साहयता कि जरूरत ना हो<br/>
+              &#8226; पर किसी और जरूरत मंद को आपकी सहायता की जरूरत हो सकती है इसलिए आप सहायता राशि दे कर सहयोग कर सकते हैं
+              
+              </p>
+
               {/* <img
                 src="assets/images/hero/dotted-shape.svg"
                 alt="shape"
@@ -110,6 +117,9 @@ import Contact from './contact'
           </div>
         </div>
       </div>
+      <br/>
+      <br/>
+      
     </section>
     
     
@@ -119,16 +129,13 @@ import Contact from './contact'
           <div className="col-lg-12">
             <div className="ud-section-title">
               <span>Values</span>
-              <h2>Main Values of Bhaskar Bharti Welfare Foundation </h2>
-              <p>
-                There are many variations of passages of Lorem Ipsum available
-                but the majority have suffered alteration in some form.
-              </p>
+              <h2>Main values of Bhaskar Bharti Welfare Foundation </h2>
+             
             </div>
           </div>
         </div>
         <div className="row">
-          <div className="col-xl-3 col-lg-3 col-sm-6">
+          <div className="col-xl-6 col-lg-6 col-sm-6">
             <div className="ud-single-feature wow fadeInUp" data-wow-delay=".1s">
               <div className="ud-feature-icon">
                 <i className="lni lni-rocket"></i>
@@ -141,19 +148,28 @@ import Contact from './contact'
               </div>
             </div>
           </div>
-          <div className="col-xl-3 col-lg-3 col-sm-6">
+
+          <div className="col-xl-6 col-lg-6 col-sm-6">
             <div className="ud-single-feature wow fadeInUp" data-wow-delay=".15s">
               <div className="ud-feature-icon">
                 <i className="lni lni-world"></i>
               </div>
               <div className="ud-feature-content">
-                <h3 className="ud-feature-title">Goal</h3>
+                <h3 className="ud-feature-title">Mission</h3>
                 <p className="ud-feature-desc">
-                Bhaskar Bharti welfare foundation vision is to create a just and equitable society by transforming individuals from socially and economically excluded communities into agents of change.                </p>
-               
+                &#8226; To impart skill training to young & to assist the elderly and destitute people in the community.
+                <br/>
+                &#8226; To lift the people out of poverty and to form vital & healthy lives for their families now and for the future.
+                <br/>
+                &#8226; To fight for the development and sustainability of helpless people and safeguard their basic human rights
+                <br/>
+                &#8226; To create a world of tolerance, hope and social justice.
+                <br/> 
+             </p>    
               </div>
             </div>
           </div>
+ {/*
           <div className="col-xl-3 col-lg-3 col-sm-6">
             <div className="ud-single-feature wow fadeInUp" data-wow-delay=".2s">
               <div className="ud-feature-icon">
@@ -167,6 +183,8 @@ import Contact from './contact'
               </div>
             </div>
           </div>
+
+
           <div className="col-xl-3 col-lg-3 col-sm-6">
             <div className="ud-single-feature wow fadeInUp" data-wow-delay=".25s">
               <div className="ud-feature-icon">
@@ -179,12 +197,11 @@ import Contact from './contact'
                 
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
   
-
     <section id="about" className="ud-about">
       <div className="container">
         <div className="ud-about-wrapper wow fadeInUp" data-wow-delay=".2s">
@@ -271,19 +288,24 @@ import Contact from './contact'
   </button>
 </div>
     {/* pdf slider */} 
-
     <section id="pricing" className="ud-pricing">
       <div className="container">
         <div className="row">
           <div className="col-lg-12">
             <div className="ud-section-title mx-auto text-center">
-              <span>Pricing</span>
-              <h2>Our Pricing Plans</h2>
+              <div className="donation">Donation</div>
             </div>
           </div>
         </div>
 
-        <div className="row g-0 align-items-center justify-content-center">
+        <center>
+          <img className='support-child' src='assets/images/supportachild.png' alt='support a child'/>
+          <img src='assets/images/arrowgif1.gif' style={{width:'75px', height:'40px'}}/>
+          <button type="submit" className="ud-main-btn">
+           DONATE NOW
+          </button> 
+        </center>
+        {/* <div className="row g-0 align-items-center justify-content-center">
           <div className="col-lg-4 col-md-6 col-sm-10">
             <div
               className="ud-single-pricing first.png-item wow fadeInUp"
@@ -320,7 +342,6 @@ import Contact from './contact'
               <div className="ud-pricing-header">
                 <h3></h3> 
                 <br></br>
-                {/* <h4>$ 30.99/mo</h4> */}
               </div>
               <div className="ud-pricing-body">
                 <ul> 
@@ -360,7 +381,8 @@ import Contact from './contact'
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
+        
       </div>
     </section>
    
@@ -559,20 +581,12 @@ import Contact from './contact'
                 </p>
                 <ul className="ud-widget-socials">
                   <li>
-                    <a href="  ">
-                      <i className="lni lni-facebook-filled"></i>
+                    <a href="https://www.facebook.com/Bhaskar-Bharti-Welfare-Foundation-102625178956392">
+                    <i class="lni lni-facebook-original"></i>
                     </a>
                   </li>
-                  <li>
-                    <a href=" ">
-                      <i className="lni lni-twitter-filled"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href=" ">
-                      <i className="lni lni-instagram-filled"></i>
-                    </a>
-                  </li>
+                 
+                
                 </ul>
               </div>
             </div>

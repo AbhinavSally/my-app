@@ -50,6 +50,19 @@ export default function contact() {
                 </h2>
               </div>
               <div className="ud-contact-info-wrapper">
+              
+              <div className="ud-single-info">
+                  <div className="ud-info-icon">
+                  <i class="lni lni-rupee"></i>
+                  </div>
+                  <div className="ud-info-meta">
+                    <h5>Bank Details</h5>
+                    <p>Account no.- 370305000581<br/>
+                       IFSC code- ICIC0003703 <br/>
+                       Account holder- Bhaskar Bharti Welfare Foundation </p>
+                  </div>
+                </div>
+
                 <div className="ud-single-info">
                   <div className="ud-info-icon">
                     <i className="lni lni-map-marker"></i>
@@ -59,16 +72,20 @@ export default function contact() {
                     <p>132001, Karnal, Haryana</p>
                   </div>
                 </div>
+                
+               {/* munish.engg2187@gmail.com */}
+
                 <div className="ud-single-info">
                   <div className="ud-info-icon">
-                    <i className="lni lni-envelope"></i>
+                  <i class="lni lni-whatsapp"></i>
                   </div>
                   <div className="ud-info-meta">
-                    <h5>How Can We Help?</h5>
-                    <p> munish.engg2187@gmail.com </p>
+                    <h5>Phone Number</h5>
+                    <p> +91 8307865554</p>
                    
                   </div>
                 </div>
+
               </div>
             </div>
           </div>
