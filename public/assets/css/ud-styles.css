@@ -536,21 +536,21 @@ p {
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .ud-hero-content .ud-hero-title {
-    font-size: 38px;
+    font-size: 36px;
     line-height: 50px;
   }
 }
 
 @media (max-width: 767px) {
   .ud-hero-content .ud-hero-title {
-    font-size: 26px;
+    font-size: 34px;
     line-height: 38px;
   }
 }
 
 .ud-hero-content .ud-hero-desc {
   font-weight: normal;
-  font-size: 20px;
+  font-size: 22px;
   line-height: 35px;
   text-align: center;
   color: var(--white);
@@ -2698,6 +2698,6 @@ left: 30px;
 
 @media (max-width:850px){
   .support-child{
-    height:42vh;
+    height:40vh;
   }
 }
