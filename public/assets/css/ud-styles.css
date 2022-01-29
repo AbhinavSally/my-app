@@ -550,7 +550,7 @@ p {
 
 .ud-hero-content .ud-hero-desc {
   font-weight: normal;
-  font-size: 22px;
+  font-size: 24px;
   line-height: 35px;
   text-align: center;
   color: var(--white);
@@ -559,9 +559,13 @@ p {
   margin: auto;
   margin-bottom: 30px;
 }
+
 .ud-hero-desc {
   color:white;
+  font-size:24px;
+  line-height: 1.6;
   }
+
 @media (max-width: 767px) {
   .ud-hero-content .ud-hero-desc {
     font-size: 26px;
@@ -2693,7 +2697,8 @@ left: 30px;
 }
 
 .hindifont{
-  font-size: 28px;
+  font-size: 24px;
+  color:rgb(241, 6, 6)
 }
 
 @media (max-width:850px){
