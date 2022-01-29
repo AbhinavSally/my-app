@@ -93,10 +93,10 @@ import Contact from './contact'
               <img src="assets/images/logoram.png" alt="hero-image" style={{width:'290px', height:'290px'}} />
               <p className="ud-hero-desc">
               <br/>
-             <span className='hindifont'> सर्वशक्तिमते प्रमात्मने श्री रामायण नमः </span>  <br/>
+             <span className='hindifont'> सर्वशक्तिमते प्रमात्मने श्री रामायण मः </span>  <br/>
              <span className='hindifont'>  श्री स्वामी सत्यानंद जी महाराज </span> <br/>
               राम राम कहिए-सदा सुखी रहिए<br/>
-              हे प्रभु! सभी पर अपनी कृपा दृष्टि बनाए रखना<br/>
+              हे प्रभु ! सभी पर अपनी कृपा दृष्टि बनाए रखना<br/>
             <span className='hindifont'> कर भला - हो भला  </span><br/>
               हो सकता है - आप को सहायता की जरूरत ना हो<br/>
              पर किसी और जरूरत मंद को आपकी सहायता की जरूरत हो सकती है इसलिए आप सहायता राशि दे कर सहयोग कर सकते हैं ।
