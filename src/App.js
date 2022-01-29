@@ -143,7 +143,7 @@ import Contact from './contact'
               <div className="ud-feature-content">
                 <h3 className="ud-feature-title">Vision</h3>
                 <p className="ud-feature-desc">
-                Bhaskar Bharti welfare foundation vision is to create a just and equitable society by transforming individuals from socially and economically excluded communities into agents of change.                </p>
+                &#8226; Bhaskar Bharti welfare foundation vision is to create a just and equitable society by transforming individuals from socially and economically excluded communities into agents of change.                </p>
                
               </div>
             </div>
