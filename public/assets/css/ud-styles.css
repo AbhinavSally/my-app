@@ -392,7 +392,7 @@ p {
 
 .navbar-nav .nav-item:hover > a {
   color: var(--white);
-  opacity: 0.5;
+  opacity: 2;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
@@ -2706,5 +2706,28 @@ left: 30px;
   .support-child{
     height:40vh;
   }
+}
+
+.nav-btn {
+  left: 20px;
+  background:orangered;
+  width: 80px;
+  height: 60px;
+  margin: 2px;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center; 
+}
+.navbar-collapse.nav-btn{
+  left: 20px;
+  background:orangered;
+  width: 80px;
+  margin: 2px;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center; 
+}
+.nav-btn:hover{
+  background:rgb(230, 68, 5);
 }
 

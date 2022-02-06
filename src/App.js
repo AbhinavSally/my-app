@@ -19,9 +19,8 @@ import Contact from './contact'
               <span class="toggler-icon"> </span>
                 <span class="toggler-icon"> </span>
                 <span class="toggler-icon"> </span>
-                
-               
               </button>
+              
              <div className="collapse navbar-collapse"  id="navbarSupportedContent">
                 <ul id="nav" className="navbar-nav mx-auto">
                   <li className="nav-item">
@@ -41,12 +40,12 @@ import Contact from './contact'
                     <a className="ud-menu-scroll" href="#contact">Contact</a>
                   </li>
 
-                  <li className="nav-item">  
-                  <a href="http://webdomain01-001-site1.htempurl.com/#/login" className="ud-menu-scroll">Login</a>
+                  <li className="nav-item" >  
+                   <a href="http://webdomain01-001-site1.htempurl.com/#/login" className="nav-btn">Login</a>
                   </li>
 
                   <li className="nav-item"> 
-                  <a href="http://webdomain01-001-site1.htempurl.com/#/sign-up" className="ud-menu-scroll">Sign Up</a>
+                   <a href="http://webdomain01-001-site1.htempurl.com/#/sign-up" className="nav-btn">Sign Up</a>
                   </li>
 
                   {/* <li className="nav-item">
