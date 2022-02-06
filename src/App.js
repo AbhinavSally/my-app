@@ -43,7 +43,15 @@ import Contact from './contact'
                   <li className="nav-item">
                     <a className="ud-menu-scroll" href="#contact">Contact</a>
                   </li>
-                  
+
+                  <li className="nav-item">  
+                  <a href="http://webdomain01-001-site1.htempurl.com/#/login" className="ud-menu-scroll">Login</a>
+                  </li>
+
+                  <li className="nav-item"> 
+                  <a href="http://webdomain01-001-site1.htempurl.com/#/sign-up" className="ud-menu-scroll">Sign Up</a>
+                  </li>
+
                   {/* <li className="nav-item">
                 <Link className="ud-menu-scroll"  to="/Dashboard"> Dashboard 
                 </Link>
@@ -301,9 +309,9 @@ import Contact from './contact'
         <center>
           <img className='support-child' src='assets/images/supportachild.png' alt='support a child'/>
           <img src='assets/images/arrowgif1.gif' style={{width:'75px', height:'40px'}}/>
-          <button type="submit" className="ud-main-btn">
+         <a href=" http://webdomain01-001-site1.htempurl.com/#/dashboard/payment"><button type="submit" className="ud-main-btn">
            DONATE NOW
-          </button> 
+          </button> </a>
         </center>
         {/* <div className="row g-0 align-items-center justify-content-center">
           <div className="col-lg-4 col-md-6 col-sm-10">
