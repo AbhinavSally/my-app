@@ -2710,7 +2710,7 @@ left: 30px;
 
 .nav-btn {
   left: 20px;
-  background:orangered;
+  background:rgb(211, 35, 29);
   width: 80px;
   height: 60px;
   margin: 2px;
@@ -2720,7 +2720,7 @@ left: 30px;
 }
 .navbar-collapse.nav-btn{
   left: 20px;
-  background:orangered;
+  background:rgb(211, 29, 22);
   width: 80px;
   margin: 2px;
   text-decoration: none;
@@ -2728,6 +2728,6 @@ left: 30px;
   text-align: center; 
 }
 .nav-btn:hover{
-  background:rgb(230, 68, 5);
+  background:rgb(204, 70, 65);
 }
 

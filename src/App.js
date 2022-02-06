@@ -1,5 +1,5 @@
 
-import Contact from './contact'
+import Contact from './Contact'
 
  function App() {
    
@@ -20,7 +20,7 @@ import Contact from './contact'
                 <span class="toggler-icon"> </span>
                 <span class="toggler-icon"> </span>
               </button>
-              
+
              <div className="collapse navbar-collapse"  id="navbarSupportedContent">
                 <ul id="nav" className="navbar-nav mx-auto">
                   <li className="nav-item">
