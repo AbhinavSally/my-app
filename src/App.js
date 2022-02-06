@@ -1,7 +1,4 @@
-import {useState} from 'react'
-import {Route , Switch, Link} from 'react-router-dom'
-import Login from './login'
-// import  "https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
+
 import Contact from './contact'
 
  function App() {
