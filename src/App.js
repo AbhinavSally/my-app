@@ -41,11 +41,11 @@ import Contact from './Contact'
                   </li>
 
                   <li className="nav-item" >  
-                   <a href="http://webdomain01-001-site1.htempurl.com/#/login" className="nav-btn">Login</a>
+                   <a href="http://webdomain01-001-site1.htempurl.com/#/login" className="ud-menu-scroll">Login</a>
                   </li>
 
                   <li className="nav-item"> 
-                   <a href="http://webdomain01-001-site1.htempurl.com/#/sign-up" className="nav-btn">Sign Up</a>
+                   <a href="http://webdomain01-001-site1.htempurl.com/#/sign-up" className="ud-menu-scroll">Sign Up</a>
                   </li>
 
                   {/* <li className="nav-item">
